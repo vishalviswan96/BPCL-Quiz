@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5414709495199194381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5414709495199194380}
+  - component: {fileID: 5414709495199194383}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5414709495199194380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5414709495199194381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5414709495199194383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5414709495199194381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22bb9dfdfa90554c998c09823de0b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - questions: Which is the permitted noise level in a manned control room?
+    answers:
+    - 50 dB
+    - <40 dB
+    - 60 dB
+    - < 80 dB
+    correctAnswer: 1
+  - questions: ESD push buttons are connected in which configuration as per policy
+    answers:
+    - 4-20 mA circuit
+    - 12 VDC circuit
+    - Wire break circuit
+    - Wire make circuit
+    correctAnswer: 3
+  - questions: As per FDS policy, which of the functionalities of jockey pumps are
+      taken in Safety PLC
+    answers:
+    - Fail to stop
+    - Auto/Manual
+    - Pressure Transmitter
+    - 'All the above '
+    correctAnswer: 2
+  - questions: Which of the following is the interlock check for remote start of
+      TLD pumps
+    answers:
+    - Discharge MOV Close
+    - Tank level shall be in Low level
+    - Postion of pump selector switch in auto
+    - Pump discharge MOV open
+    correctAnswer: 1
+  - questions: What is the required overhead clearance from ground for insulated
+      11 kV line?
+    answers:
+    - 4.0
+    - 4.6
+    - 5.2
+    - 5.5
+    correctAnswer: 1
+  - questions: The minimum bandwith as per IEEE 802.3 standard for automation network
+      is
+    answers:
+    - 1000 mbps
+    - 10 mbps
+    - 10/1000 MBPS
+    - 100 mbps
+    correctAnswer: 4
+  - questions: When the meter reading is in excess, the K factor is
+    answers:
+    - Increases
+    - Decreases
+    - Remains constant
+    - 'None of the above '
+    correctAnswer: 2
+  - questions: As per IEC 61511, if a device has Probabilty of failure on demand
+      (PFD) of 10e-3 to 10e-4, then the device is said to be
+    answers:
+    - SIL 1
+    - SIL 2
+    - SIL 3
+    - SIL 4
+    correctAnswer: 3
+  - questions: What should be done to control static electricity discharge while
+      handling hydrocarbon?
+    answers:
+    - Decrease humidity
+    - Reduce friction
+    - Reduce flow velocity
+    - Ensure proper grounding
+    correctAnswer: 1
+  - questions: Define the working principle of radar gauge ?
+    answers:
+    - Ultrasonic wave
+    - Time Domain Reflectometry
+    - Frequency modulated continuous wave
+    - Amplitude modulated continuous wave
+    correctAnswer: 3
+  - questions: With regard to IEC 60529, what is tht level of ingress protection
+      (IP) that a field device shall be chosen inorder to be  resistant to dust & 
+      water immersion ?
+    answers:
+    - IP55
+    - IP65
+    - IP67
+    - IP68
+    correctAnswer: 3
+  - questions: In a servo level gauge, how may spot density measurement are configurable
+      (minimum) ?
+    answers:
+    - 10
+    - 15
+    - 20
+    - 50
+    correctAnswer: 1
+  - questions: As per ATEX classification, if any electrical device is specfied with 
+      IIC T5 then the device is qualified to use under
+    answers:
+    - Mines,easily ignited gas & 85 deg C
+    - Surface, ignited gas & 100 deg C
+    - Mines, most easily ignited gas & 135 deg C
+    - Surface, most easily ignited gas & 100 deg C
+    correctAnswer: 4
+  - questions: For SIL 2, maxium permissible scan time for closed loop in Programmable
+      logic controller is
+    answers:
+    - 100 milliseconds
+    - 50 milliseconds
+    - 300 milliseconds
+    - 250 milliseconds
+    correctAnswer: 4
+  - questions: Which of the following is the concern of Redundant Array of Independent
+      Disks (RAID)
+    answers:
+    - Data security
+    - Write cache reliability
+    - Fault tolerance
+    - All the above
+    correctAnswer: 2
+  - questions: As per the standard system specifications, which of the following
+      devices has bumpless transfer ?
+    answers:
+    - PLC
+    - Ethernet Switch
+    - Terminal Server
+    - IO cards
+    correctAnswer: 1
+  - questions: Which of the following statement is false?
+    answers:
+    - The shield of cable shall be earthed with body earth at one end only
+    - The shield of cable shall be earthed with electronic earth at one end.
+    - For instrument earth galvanized steel pipe line for a depth of 4m to shield
+      the electrode is required
+    - None of the above
+    correctAnswer: 1
+  - questions: Which of the following are part of IRIS Security layers?
+    answers:
+    - Field devices
+    - Network
+    - Data
+    - All the above
+    correctAnswer: 4
+  - questions: Mention the type of battery used in UPS
+    answers:
+    - Nickel Cadmium
+    - Lead Ion
+    - Lithium Silicon
+    - All the above
+    correctAnswer: 1
+  - questions: On activation of ESD, the process shutdown initiates which of the
+      following system
+    answers:
+    - Trip of PLT pumps at OMC location
+    - Lighting at Admin block
+    - Supply to high mast
+    - Stopping of BCU
+    correctAnswer: 4
+  - questions: At what level is the UG tanks Low alarm is configured ?
+    answers:
+    - 10 % of Volume
+    - 15 % of Volume
+    - 20 % of Volume
+    - 5% of Volume
+    correctAnswer: 3
+  - questions: With regard to Operatabilty Index, which parameter holds the minimum
+      weightage?
+    answers:
+    - Super crticial interlock functioning
+    - Critical interlock functioning
+    - Farthest point FW pressure
+    - Availability of FW as per OISD 117
+    correctAnswer: 3
+  - questions: For CCTV video analytics, ATR shall be submitted only by which of
+      the following role holders?
+    answers:
+    - Engineer Incharge
+    - Location Incharge
+    - Control Room Incharge
+    - Safety Officer
+    correctAnswer: 4
+  - questions: As per the responsibilty matrix, any deviation in the level measurement
+      of Fire water tanks has to be approved by
+    answers:
+    - Regional HSSE Role holder
+    - RHQ HSSE Role holder
+    - Regional Ops Incharge
+    - RHQ Ops Incharge
+    correctAnswer: 3
+  - questions: Which of the following functionlity is non exclusive to Manager level
+    answers:
+    - Card Master
+    - Receipt Updates
+    - Manual order entry
+    - K factor change
+    correctAnswer: 3
+  - questions: What is the specified repeatabilty for density meter ?
+    answers:
+    - 0.0005 gm/cc
+    - 0.0001 gm/cc
+    - 0.0002 gm/cc
+    - 0.001 g,m/cc
+    correctAnswer: 3
+  - questions: On breakage of communication between OMCs during PLT, which of the
+      function is most desirable
+    answers:
+    - Activation of ESD
+    - Stopping of Pumps
+    - Alarms
+    - No action
+    correctAnswer: 2
+  - questions: What are all the types of output from a SIL 2 radar gauge
+    answers:
+    - Analog
+    - serial
+    - SPDT
+    - All the above
+    correctAnswer: 4
+  - questions: (i) Gauges are connected to TAS with proprietary protocol only (ii)
+      MCS communciates with valves with proprietray protocol only
+    answers:
+    - (i) true        (ii) true
+    - (i) true        (ii) false
+    - (i) false        (ii) true
+    - (i) false        (ii) false
+    correctAnswer: 3
+  - questions: The recommended flow straightener specification (downstream, upstream)
+      used in Turbine flow meter is
+    answers:
+    - 5D & 10D
+    - 10D & 5D
+    - 1D & 5D
+    - 5D & 15D
+    correctAnswer: 1
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  questionText: {fileID: 0}
+  counterText: {fileID: 0}
+  quizPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  scoreText: {fileID: 0}
+  scoreCount: 0
+  anim: {fileID: 0}
+  TimerText: {fileID: 0}
